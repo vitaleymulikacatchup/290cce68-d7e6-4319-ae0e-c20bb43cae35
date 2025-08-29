@@ -5,7 +5,6 @@ import ProcessRoadmap from '@/components/sections/layouts/roadmap/ProcessRoadmap
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterBase from '@/components/footer/FooterBase';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
           { id: '2', title: 'Step 2: Buy MemeCoin', description: 'Purchase MemeCoin on your favorite exchange.', image: '/images/placeholder2.avif', items: [], reverse: true },
           { id: '3', title: 'Step 3: Enjoy the Community', description: 'Engage with community, spread laughter!', image: '/images/placeholder3.avif', items: [], reverse: false },
         ]}
-        title="How to Buy"
       />
       <NumberGridTokenomics
         title="Key Tokenomics"
