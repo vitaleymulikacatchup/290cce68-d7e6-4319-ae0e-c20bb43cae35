@@ -13,11 +13,9 @@ export default function Home() {
       <BillboardHero
         title="Welcome to MemeCoin"
         subtitle="Where memes meet currency!"
-        className="mb-24"
       />
       <SplitAbout
         description="MemeCoin is a community-driven token that blends humor and currency in an engaging way. We encourage inclusivity and playfulness in every interaction."
-        className="mb-24"
       />
       <ProcessRoadmap
         items={[
@@ -26,7 +24,6 @@ export default function Home() {
           { id: '3', title: 'Step 3: Enjoy the Community', description: 'Engage with community, spread laughter!', image: '/images/placeholder3.avif', items: [], reverse: false },
         ]}
         title="How to Buy"
-        className="mb-24"
       />
       <NumberGridTokenomics
         title="Key Tokenomics"
